@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(img.jpg) no-repeat 100%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    color: aliceblue;
+}
+
+.container h1 {
+    font-size: 100px;
+}
+
+.container a {
+    transition: all 500ms ease;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 100px;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: black;
+    letter-spacing: 5px;
+}
